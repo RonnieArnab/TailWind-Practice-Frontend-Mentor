@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="md:grid md:place-content-center md:h-screen font-default">
+    <div
+      class="flex flex-col md:flex-row bg-white md:rounded-r-3xl w-screen md:w-9/12 drop-shadow-2xl"
+    >
+      <div
+        class="drop-shadow-xl rounded-b-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue p-5 md:rounded-3xl flex flex-col md:w-2/4 items-center"
+      >
+        <div
+          class="pb-4 pt-2 tracking-[0.05rem] text-pale-blue font-medium text-lg"
+        >
+          Your Result
+        </div>
+        <div
+          class="rounded-full p-11 font-bold m-5 bg-gradient-to-b from-violet-blue to-persian-blue flex flex-col items-center"
+        >
+          <div class="text-5xl text-pale-blue">76</div>
+          <div class="text-pale-blue font-medium text-xs">of 100</div>
+        </div>
+        <div class="text-pale-blue font-semibold tracking-wide text-2xl">
+          Great
+        </div>
+        <div
+          class="pb-4 pt-4 pr-8 pl-8 text-pale-blue font-extralight tracking-wide text-center text-xs"
+        >
+          your scored higher than 65% of the people who have taken these tests
+        </div>
+      </div>
+      <div class="p-5 space-y-8">
+        <h1 class="text-2xl font-bold mb-3">Summary</h1>
+        <div class="space-y-2">
+          <div
+            class="p-3 flex justify-between items-center space-x-24 bg-back-red rounded-lg"
+          >
+            <div class="text-light-red text-lg">Reaction</div>
+            <div class="font-bold text-md">
+              80 <span class="text-slate-500 text-sm"> / 100 </span>
+            </div>
+          </div>
+          <div
+            class="p-3 flex justify-between space-x-24 bg-back-org rounded-lg"
+          >
+            <div class="text-orangey-yellow text-lg">Memory</div>
+            <div class="font-bold text-md">
+              92 <span class="text-slate-500 text-sm"> / 100 </span>
+            </div>
+          </div>
+          <div
+            class="p-3 flex justify-between space-x-24 bg-back-green rounded-lg"
+          >
+            <div class="text-green-teal text-lg">Verbal</div>
+            <div class="font-bold text-md">
+              61 <span class="text-slate-500 text-sm"> / 100 </span>
+            </div>
+          </div>
+          <div
+            class="p-3 flex justify-between space-x-24 bg-back-blue rounded-lg"
+          >
+            <div class="text-cobalt-blue text-lg">Visual</div>
+            <div class="font-bold text-md">
+              72 <span class="text-slate-500 text-sm"> / 100 </span>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="text-center w-full bg-black hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue p-3 text-white rounded-3xl"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
